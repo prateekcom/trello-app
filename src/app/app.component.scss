@@ -1,0 +1,39 @@
+@import "/src/app/styles/style";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;  // one rem is 10%
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $Grey-dark-2;
+    background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}    
+
+
+.container{
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: $Grey-light-2;
+    box-shadow: $shadow-dark;
+    min-height: 50rem;
+}
+
+
